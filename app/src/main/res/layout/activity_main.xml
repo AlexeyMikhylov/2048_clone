@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#d2f6f7"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/logofont2"
+        android:text="2048"
+        android:textColor="#fcba03"
+        android:textSize="172dp"></TextView>
+
+    <Button
+        android:id="@+id/btnActTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        android:background="#fcba03"
+        android:text=" Начать игру "
+        android:textColor="#001236"
+        android:textSize="24dp"></Button>
+</LinearLayout>
