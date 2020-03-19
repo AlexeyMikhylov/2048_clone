@@ -9,12 +9,12 @@
 
     <RelativeLayout
         android:layout_width="wrap_content"
-        android:layout_height="170dp"
+        android:layout_height="141dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_gravity="left"
-        android:layout_marginLeft="27dp"
-        android:layout_marginTop="2dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="0dp"
         android:orientation="vertical">
 
         <TextView
@@ -23,9 +23,9 @@
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:layout_marginStart="7dp"
+            android:layout_marginStart="0dp"
             android:layout_marginLeft="30dp"
-            android:layout_marginTop="57dp"
+            android:layout_marginTop="55dp"
             android:fontFamily="@font/logofont2"
             android:text="2048"
             android:textColor="#fcba03"
@@ -34,13 +34,39 @@
     </RelativeLayout>
 
     <RelativeLayout
-        android:layout_width="110dp"
+        android:layout_width="369dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="141dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="14dp" />
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="218dp" />
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="298dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="70dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_gravity="top"
-        android:layout_marginStart="169dp"
-        android:layout_marginTop="70dp"
+        android:layout_marginStart="237dp"
+        android:layout_marginTop="69dp"
         android:background="@color/cardview_dark_background"
         android:orientation="vertical"
         android:padding="5dp">
@@ -54,7 +80,7 @@
             android:gravity="center"
             android:text="score"
             android:textColor="#fcba03"
-            android:textSize="20dp" />
+            android:textSize="14dp" />
 
         <TextView
             android:id="@+id/score"
@@ -67,18 +93,18 @@
             android:gravity="center"
             android:text="123456"
             android:textColor="#fcba03"
-            android:textSize="20dp" />
+            android:textSize="14dp" />
 
     </RelativeLayout>
 
     <RelativeLayout
-        android:layout_width="110dp"
+        android:layout_width="70dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_gravity="top"
-        android:layout_marginStart="280dp"
-        android:layout_marginTop="70dp"
+        android:layout_marginStart="316dp"
+        android:layout_marginTop="69dp"
         android:background="@color/cardview_dark_background"
         android:orientation="vertical"
         android:padding="5dp">
@@ -94,7 +120,7 @@
             android:gravity="center"
             android:text="123456"
             android:textColor="#fcba03"
-            android:textSize="20dp" />
+            android:textSize="14dp" />
 
         <TextView
             android:id="@+id/textViewHighScore"
@@ -105,7 +131,195 @@
             android:gravity="center"
             android:text="high score"
             android:textColor="#fcba03"
-            android:textSize="20dp" />
+            android:textSize="14dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/gametable"
+        android:layout_width="369dp"
+        android:layout_height="369dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="190dp"
+        android:background="@drawable/gametable_border">
+
+        <RelativeLayout
+
+            android:id="@+id/gametyle1"
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:padding="2dp"
+            android:background="@drawable/tyle_border">
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gametyle2"
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="88dp"
+            android:background="@drawable/tyle_border">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gametyle3"
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="176dp"
+            android:background="@drawable/tyle_border">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gametyle4"
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="264dp"
+            android:background="@drawable/tyle_border">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gametyle5"
+            android:layout_marginTop="88dp"
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:background="@drawable/tyle_border">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gametyle6"
+            android:layout_marginTop="88dp"
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="88dp"
+            android:background="@drawable/tyle_border">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gametyle7"
+            android:layout_marginTop="88dp"
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="176dp"
+            android:background="@drawable/tyle_border">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gametyle8"
+            android:layout_marginTop="88dp"
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="264dp"
+            android:background="@drawable/tyle_border">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gametyle9"
+            android:layout_marginTop="176dp"
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:background="@drawable/tyle_border">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gametyle10"
+            android:layout_marginTop="176dp"
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="88dp"
+            android:background="@drawable/tyle_border">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gametyle11"
+            android:layout_marginTop="176dp"
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="176dp"
+            android:background="@drawable/tyle_border">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gametyle12"
+            android:layout_marginTop="176dp"
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="264dp"
+            android:background="@drawable/tyle_border">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gametyle13"
+            android:layout_marginTop="264dp"
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:background="@drawable/tyle_border">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gametyle14"
+            android:layout_marginTop="264dp"
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="88dp"
+            android:background="@drawable/tyle_border">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gametyle15"
+            android:layout_marginTop="264dp"
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="176dp"
+            android:background="@drawable/tyle_border">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gametyle16"
+            android:layout_marginTop="264dp"
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="264dp"
+            android:background="@drawable/tyle_border">
+
+        </RelativeLayout>
 
     </RelativeLayout>
 

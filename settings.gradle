@@ -1,2 +1,2 @@
-include ':app'
+include ':app', ':app2048as'
 rootProject.name='2048(cloneKA)'

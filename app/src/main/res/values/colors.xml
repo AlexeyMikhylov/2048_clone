@@ -3,4 +3,11 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="ordinary">#d2f6f7</color>
+    <color name="logocolor">#fcba03</color>
+    <color name="tylecolor">#d3cade</color>
+    <color name="gametablecolor1">#cebce3</color>
+    <color name="gametablecolor2">#af95cf</color>
 </resources>

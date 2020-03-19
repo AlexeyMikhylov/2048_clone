@@ -1,16 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_activity"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="#d2f6f7"
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/darkthemeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Dark theme"
+        android:textColor="#000000"
+        android:fontFamily="@font/logofont2"
+        android:layout_marginTop="30dp"
+        android:textSize="22dp"></TextView>
+
+
+    <ToggleButton
+        android:id="@+id/darkthemeToggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/logofont2"
+        android:text="off"
+        android:background="@color/logocolor"
+        android:textSize="28dp"
+        android:onClick="darktheme"></ToggleButton>>
+
+    <TextView
+        android:id="@+id/nameTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="120dp"
         android:fontFamily="@font/logofont2"
         android:text="2048"
         android:textColor="#fcba03"
@@ -21,9 +45,23 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="60dp"
         android:background="#fcba03"
-        android:text=" Начать игру "
+        android:text=" NEW GAME "
+        android:fontFamily="@font/logofont2"
         android:textColor="#001236"
-        android:textSize="24dp"></Button>
+        android:textSize="36dp"></Button>
+
+    <Button
+        android:id="@+id/btnContinue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:text="  CONTINUE  "
+        android:fontFamily="@font/logofont2"
+        android:textColor="#001236"
+        android:textSize="36dp"></Button>
+
 </LinearLayout>
