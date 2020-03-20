@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener{
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btnActTwo:
-                Intent intent = new Intent(this, GameActivity.class);
+                Intent intent = new Intent(this, Activity_game_array.class);
                 startActivity(intent);
                 break;
             default:
